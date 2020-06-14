@@ -1,7 +1,13 @@
 import { combineReducers } from 'redux';
 
-const rootReducer = combineReducers({
+import country from './country';
+import countries from './countries';
+import filter from './filter';
 
+const rootReducer = combineReducers({
+    country,
+    countries,
+    filter,
 });
 
 export default rootReducer;
