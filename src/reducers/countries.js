@@ -34,7 +34,6 @@ export default (state = initialState, { type, payload }) => {
         case SET_COUNTRY_BY_NAME: {
             const countryListByName = state.countries.filter((country) =>
                 country.name.toLowerCase().includes(payload.toLowerCase()));
-            console.log(countryListByName);
             return { ...state, items: countryListByName };
         }
 

@@ -25,6 +25,6 @@ export const fetchFilterByRegion = (region) => async (dispatch) => {
         const response = await Api.get(`/region/${region}`);
         dispatch(filterByRegionSuccess(response.data));
     } catch (error) {
-        dispatch(filterByRegionFailure(error.response.data.message));
+        dispatch(filterByRegionFailure(error.message));
     }
 };
