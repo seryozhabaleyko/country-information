@@ -1,5 +1,7 @@
 # Country information [REST Countries]
 
+![](https://github.com/seryozhabaleyko/country-information/blob/master/country1.jpg?raw=true)
+
 ## Available Scripts
 
 In the project directory, you can run:
